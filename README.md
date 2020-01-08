@@ -1,4 +1,4 @@
-# Worpress Skelton Plugin
+# Wordpress Skeleton Plugin
 
 A plugin for wordpress which can be used as base it uses composer autoload
 

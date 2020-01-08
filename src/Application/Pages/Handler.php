@@ -1,5 +1,5 @@
 <?php
-namespace SkeltonPlugin\Application\Pages;
+namespace SkeletonPlugin\Application\Pages;
 
 class Handler
 {

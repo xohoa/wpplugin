@@ -1,5 +1,5 @@
 <?php
-namespace SkeltonPlugin\Database;
+namespace SkeletonPlugin\Database;
 
 class GenerateTables {
 	

@@ -1,5 +1,5 @@
 <?php
-namespace SkeltonPlugin\Application\AjaxRequests;
+namespace SkeletonPlugin\Application\AjaxRequests;
 
 
 class Handler

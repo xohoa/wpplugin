@@ -1,6 +1,6 @@
 {
-    "name": "tdevelopers/skelton-plugin",
-    "description": "Skelton plugin using composer dependency manager.",
+    "name": "tdevelopers/skeleton-plugin",
+    "description": "Skeleton plugin using composer dependency manager.",
     "authors": [
         {
             "name": "Shah Rukh",
@@ -10,7 +10,7 @@
     "require": {},
     "autoload": {
         "psr-4": {
-          "SkeltonPlugin\\":"src/"
+          "SkeletonPlugin\\":"src/"
         },
         "files" : [
         	"src/constants.php",

@@ -1,10 +1,10 @@
 <?php
-namespace SkeltonPlugin;
+namespace SkeletonPlugin;
 
-use SkeltonPlugin\Database\GenerateTables;
-use SkeltonPlugin\Application\Pages\Handler;
-use SkeltonPlugin\Application\AjaxRequests\Handler as AjaxHandler;
-use SkeltonPlugin\Application\ScriptStyles\Handler as ScriptStyleHanlder;
+use SkeletonPlugin\Database\GenerateTables;
+use SkeletonPlugin\Application\Pages\Handler;
+use SkeletonPlugin\Application\AjaxRequests\Handler as AjaxHandler;
+use SkeletonPlugin\Application\ScriptStyles\Handler as ScriptStyleHanlder;
 
 
 class App {
@@ -12,8 +12,8 @@ class App {
 	public function __construct() 
 	{
 
-		register_activation_hook( SKELTON_PLUGIN_FILE, array($this,'pluginActivationHook' ));
-		register_deactivation_hook( SKELTON_PLUGIN_FILE, array($this,'pluginDeactivationHook' ));
+		register_activation_hook( SKELETON_PLUGIN_FILE, array($this,'pluginActivationHook' ));
+		register_deactivation_hook( SKELETON_PLUGIN_FILE, array($this,'pluginDeactivationHook' ));
 
 		add_action( 'init', array($this, 'initCallback') );
 

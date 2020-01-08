@@ -1,5 +1,5 @@
 <?php
-namespace SkeltonPlugin\Application\ScriptStyles;
+namespace SkeletonPlugin\Application\ScriptStyles;
 
 class AdminScripts
 {
