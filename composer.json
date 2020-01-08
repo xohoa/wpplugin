@@ -1,0 +1,20 @@
+{
+    "name": "tdevelopers/skelton-plugin",
+    "description": "Skelton plugin using composer dependency manager.",
+    "authors": [
+        {
+            "name": "Shah Rukh",
+            "email": "mrshahrukh123@gmail.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+          "SkeltonPlugin\\":"src/"
+        },
+        "files" : [
+        	"src/constants.php",
+            "src/functions.php"
+        ]
+    }
+}
