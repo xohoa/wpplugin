@@ -9,8 +9,7 @@ use SkeletonPlugin\Application\ScriptStyles\Handler as ScriptStyleHanlder;
 
 class App {
 	
-	public function __construct() 
-	{
+	public function __construct() {
 
 		register_activation_hook( SKELETON_PLUGIN_FILE, array($this,'pluginActivationHook' ));
 		register_deactivation_hook( SKELETON_PLUGIN_FILE, array($this,'pluginDeactivationHook' ));
@@ -27,31 +26,25 @@ class App {
 
 	}
 
-	public function pluginActivationHook () 
-	{
+	public function pluginActivationHook() {
 		$generateTables = new GenerateTables();
 		$generateTables->QueryToCreate();
 	}
 
-	public function pluginDeactivationHook ()
-	{
+	public function pluginDeactivationHook() {
 
 	}
 
-	public function initCallback() 
-	{
+	public function initCallback() {
 
 	}
 
-	public function adminPagesRegister () 
-	{
+	public function adminPagesRegister() {
 
 		$handler = new Handler();
-
     }
 
-    public function registerEnqueueAdminScriptsStyles ()
-	{
+    public function registerEnqueueAdminScriptsStyles() {
 		$scriptStyles = new ScriptStyleHanlder();
 		$scriptStyles->loadAdminScriptStyles();
 	}

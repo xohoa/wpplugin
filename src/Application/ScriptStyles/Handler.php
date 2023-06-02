@@ -1,16 +1,13 @@
 <?php
 namespace SkeletonPlugin\Application\ScriptStyles;
 
-class Handler
-{
-	public function loadAdminScriptStyles ()
-	{
+class Handler {
+	public function loadAdminScriptStyles() {
 		$adminScripts = new AdminScripts();
 		$adminStyles = new AdminStyles();
 	}
 
-	public function loadFrontScriptStyles ()
-	{
+	public function loadFrontScriptStyles() {
 		$frontScripts = new FrontScripts();
 		$frontStyles = new FrontStyles();
 	}

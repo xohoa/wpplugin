@@ -2,10 +2,8 @@
 namespace SkeletonPlugin\Application\AjaxRequests;
 
 
-class Handler
-{
-	public function handleRequests() 
-	{
+class Handler {
+	public function handleRequests() {
 		if(!isset($_REQUEST['load_data'])) {
 			echo "go away";
 			die();
